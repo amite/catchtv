@@ -22,6 +22,19 @@ gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 # gem 'turbolinks'
 
+gem 'mongoid', github: 'mongoid/mongoid'
+
+gem 'slim'
+
+group :test, :development do
+
+	gem 'pry'
+	gem 'rspec-rails', github: 'rspec/rspec-rails'
+	gem 'database_cleaner'
+	gem 'factory_girl_rails'
+	gem 'mongoid-rspec', github: 'evansagge/mongoid-rspec'
+end
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
