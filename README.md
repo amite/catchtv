@@ -2,8 +2,8 @@
 
 * remove turbolinks references - done
 * install newrelic - done
-* install mail server - postfix
+* install mail server - postfix + mandrill - done
 
 
-* install marionette
+* install marionette - done
 * install mandrill-rails
