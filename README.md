@@ -1,7 +1,7 @@
 ## TODO
 
 * remove turbolinks references - done
-* install newrelic
+* install newrelic - done
 * install mail server - postfix
 
 
