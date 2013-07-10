@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.0.0'
 
+gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'jbuilder', '~> 1.2'
 gem 'jquery-rails'
 gem 'mongoid', github: 'mongoid/mongoid'
@@ -16,7 +17,6 @@ group :development do
 end
 
 group :development, :test do
-  gem 'pry'
   gem 'rspec-rails', github: 'rspec/rspec-rails'
   gem 'mongoid-rspec', github: 'evansagge/mongoid-rspec'
 end

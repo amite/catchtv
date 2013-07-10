@@ -37,6 +37,9 @@ RSpec.configure do |config|
   #     --seed 1234
   config.order = "random"
 
+  # Include MongoId matchers
+  config.include Mongoid::Matchers
+
   # Settings for Database Cleaner gem
   config.before(:suite) do
     DatabaseCleaner.strategy = :truncation
